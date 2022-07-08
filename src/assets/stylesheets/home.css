@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans&family=Heebo:wght@200&display=swap');
+
+.container_home {
+    height: 468px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px 40px 50px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #FFFFFF;
+    box-shadow: 0 3px 13px 1px rbg(0 0 0 / 9%)
+}
+
+.left_home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.left_home .img_perfil {
+    height: 280px;
+    width: 280px;
+    padding-top: 1.1em;
+    padding-left: 1.1em;
+    border-radius: 40%;
+    background: linear-gradient(to right, #E372F5, #96CCE7);
+  background-clip: padding-box;
+  border-radius: 30%;
+    z-index: 2;
+}
+
+.left_home a {
+    line-height: 2.9em;
+    color: #494D5F;
+}
+
+.container_text_home{
+    display: flex;
+    flex-direction: column;
+    line-height: 2.5em;
+}
+.text_prim{
+    color: #41418B;
+    font-size: 1.4em;
+    font-family: 'Heebo', sans-serif;
+}
+.name_principal{
+    color: #62A0BF;
+    font-size: 2em;
+    font-family: 'Expletus Sans', cursive;
+}

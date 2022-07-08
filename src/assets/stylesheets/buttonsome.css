@@ -1,0 +1,11 @@
+.Buttonsome {
+    width: 120px;
+    height: 30px;
+    border: 3px solid #555;
+    box-sizing: border-box;
+    border-image: linear-gradient(to bottom, #8458B3 0%, #A0D2EB 100%) 1;
+    transform: skew(-20deg);
+    font-family: 'Expletus Sans';
+    font-style: normal;
+    font-weight: 300;
+}
